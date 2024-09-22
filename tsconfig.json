@@ -3,5 +3,12 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
+  ],
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "schemas": [
+    {
+      "fileMatch": ["tsconfig.*"],
+      "url": "http://json.schemastore.org/tsconfig"
+    }
   ]
 }
