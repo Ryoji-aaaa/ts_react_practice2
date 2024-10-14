@@ -20,6 +20,7 @@ import { type PropsWithChildren } from "react";
 type CourseGoalProps = PropsWithChildren<{
   id: number;
   title: string;
+  children: ReactNode;
   onDelete: (id: number) => void;
 }>;
 
