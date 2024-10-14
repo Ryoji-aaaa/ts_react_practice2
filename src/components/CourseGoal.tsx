@@ -1,4 +1,4 @@
-import { type PropsWithChildren } from "react";
+import { ReactNode, type PropsWithChildren } from "react";
 
 // interface CourseGoalProps {
 //   title: string;
